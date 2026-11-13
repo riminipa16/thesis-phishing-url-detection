@@ -1,0 +1,19 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables & sensitive data
+.env
+
+# Large model files / datasets (use Git LFS if you must commit them)
+*.pkl
+*.h5
+*.pt
+data/
